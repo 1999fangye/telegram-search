@@ -7,11 +7,11 @@ import os
 REDIS_HOST = "REDIS_HOST" in os.environ and os.environ["REDIS_HOST"] or 'localhost'
 REDIS_PORT = "REDIS_PORT" in os.environ and os.environ["REDIS_PORT"] or 6379
 ELASTIC_URL = "ELASTIC_URL" in os.environ and os.environ["ELASTIC_URL"] or 'http://localhost:9200/'
-API_ID = "API_ID" in os.environ and os.environ["API_ID"] or 123456
-API_HASH = "API_HASH" in os.environ and os.environ["API_HASH"] or 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-BOT_TOKEN = "BOT_TOKEN" in os.environ and os.environ["BOT_TOKEN"] or '123456789:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-CHAT_ID = "CHAT_ID" in os.environ and os.environ["CHAT_ID"] or '-1001254246410'
-ADMIN_ID = "ADMIN_ID" in os.environ and os.environ["ADMIN_ID"] or '345796292'
+API_ID = "API_ID" in os.environ and os.environ["API_ID"] or 13640589
+API_HASH = "API_HASH" in os.environ and os.environ["API_HASH"] or '269176e5eb58ad3415d13f33e4f754c6'
+BOT_TOKEN = "BOT_TOKEN" in os.environ and os.environ["BOT_TOKEN"] or '5489805169:AAFuBMqzt4tTVDV5EGhKxVJGyhQhAmPkcbc'
+CHAT_ID = "CHAT_ID" in os.environ and os.environ["CHAT_ID"] or '-1001562135932'
+ADMIN_ID = "ADMIN_ID" in os.environ and os.environ["ADMIN_ID"] or '676685219'
 
 from elasticsearch import Elasticsearch
 es = Elasticsearch([ELASTIC_URL])
